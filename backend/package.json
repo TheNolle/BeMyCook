@@ -1,0 +1,17 @@
+{
+  "author": "Nolly#0001",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2",
+    "openai": "^3.2.1"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "bemycook-backend",
+  "scripts": {
+    "start": "node ."
+  },
+  "version": "1.0.0"
+}
