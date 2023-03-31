@@ -1,15 +1,16 @@
 {
   "author": "Nolly#0001",
   "dependencies": {
-    "@types/bcrypt": "^5.0.0",
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.2",
     "openai": "^3.2.1"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "dotenv-defaults": "^5.0.2",
     "nodemon": "^2.0.22"
   },
   "license": "MIT",

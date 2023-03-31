@@ -1,0 +1,52 @@
+$palette: (
+    pink: (
+        primary: #cdb4db,
+        secondary: #ffafcc,
+        tertiary: #ffc8dd,
+    ),
+    blue: (
+        primary: #a2d2ff,
+        secondary: #bde0fe,
+    ),
+    dark-theme: (
+        background: (
+            primary: #121212,
+            secondary: #1a1a1a,
+            tertiary: #282828,
+            quaternary: #383838,
+            quinary: #3c3c3c,
+        ),
+        text: (
+            primary: #f5f5f5,
+            secondary: #e0e0e0,
+            tertiary: #bdbdbd,
+            quaternary: #9e9e9e,
+            quinary: #757575,
+        )
+    ),
+    light-theme: (
+        background: (
+            primary: #f5f5f5,
+            secondary: #e0e0e0,
+            tertiary: #bdbdbd,
+            quaternary: #9e9e9e,
+            quinary: #757575,
+        ),
+        text: (
+            primary: #121212,
+            secondary: #1a1a1a,
+            tertiary: #282828,
+            quaternary: #383838,
+            quinary: #3c3c3c,
+        )
+    ),
+);
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: map-get(map-get($palette, dark-theme), text, primary);
+    background-color: map-get(map-get($palette, dark-theme), background, tertiary);
+}
