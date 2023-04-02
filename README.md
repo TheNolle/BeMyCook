@@ -45,11 +45,10 @@ This project is licensed under a custom MIT License approved by my lawyer. See t
 
 ## Contact
 If you have any questions or feedback about the project, feel free to reach out to me using any of the following methods:
-- Website: https://thenolle.com/
-- Discord: https://discord.com/invite/KRT2ax9kDX
-- Github: https://github.com/TheNolle
+- Website: https://thenolle.com
+- Github: https://github.com/thenolle
+- Discord: https://discord.com/invite/86yVsMVN9z
 - Reddit: https://www.reddit.com/user/thenolle
-- Instagram: https://www.instagram.com/the.nolly/
 - Twitter: https://twitter.com/TheNolly_
 - Patreon: https://www.patreon.com/nolly__
 - Ko-Fi: https://ko-fi.com/nolly__
